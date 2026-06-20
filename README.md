@@ -1,4 +1,4 @@
-# brand-system-kit
+# style-system--build-kit
 
 [![CI](https://github.com/derekcedarbaum2/brand-system-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/derekcedarbaum2/brand-system-kit/actions/workflows/ci.yml)
 &nbsp;![Node 18+](https://img.shields.io/badge/node-18%2B-3E5C8A)
