@@ -6,9 +6,9 @@
   edge case matrix, tech debt heat map, coverage map, FMEA, accessibility audit grid.
   Default canvas: 1400 × 900. Adjust row/col counts by duplicating row groups.
   Cell fill conventions (always token roles, never raw hex, so re-skinning keeps working):
-    - Heat map (low/med/high): fill="var(--card)" / fill="var(--card-accent)" / fill="var(--accent-light)" with stroke="var(--border)"
+    - Heat map (low/med/high): fill="token(card)" / fill="token(card-accent)" / fill="token(accent-light)" with stroke="token(border)"
     - Status (✓/✗/—): bold checkmark, X, or em-dash
-    - RACI: letter R/A/C/I in var(--emphasis) / var(--teal) / var(--secondary) / var(--dim)
+    - RACI: letter R/A/C/I in token(emphasis) / token(teal) / token(secondary) / token(dim)
 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900">
 <style>:root{
