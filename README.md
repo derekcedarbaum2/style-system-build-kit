@@ -162,3 +162,15 @@ No fonts are bundled (the demos load them from Google Fonts; swap freely). No fr
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Support and validation
+
+Node 18+ for the tools; Chrome or Chromium for image rendering. The automated checks run on Linux with Node 20.
+
+This is an independently maintained project. Report reproducible bugs through Issues; security reports follow [SECURITY.md](SECURITY.md). The latest release and default branch receive fixes, with no response-time guarantee.
+
+Run the local checks with:
+
+```bash
+node tooling/contrast-check.mjs profiles/northwind
+```

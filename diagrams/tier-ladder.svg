@@ -63,7 +63,7 @@
   </g>
 
   <!-- Add additional tiers below by duplicating the above group, decrementing tier number, and shifting y by ~140px each. -->
-  <!-- Use stroke="var(--accent-2)" for primary actors, stroke="var(--dim)" for secondary actors, so re-skinning keeps working. -->
+  <!-- Use stroke="token(accent-2)" for primary actors, stroke="token(dim)" for secondary actors, so re-skinning keeps working. -->
   <!-- Tier band height: 100–140 px depending on capability list length. -->
 
   <g id="footer-caption">
